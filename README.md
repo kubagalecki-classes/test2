@@ -1,4 +1,4 @@
-# Kolokwium I - Warzywniak
+# Kolokwium II - Warzywniak
 _Czas pracy: 90 minut_
 
 ## Zadanie 1
