@@ -1,0 +1,13 @@
+name: Kolokwium
+
+on: [push]
+
+jobs:
+  build-and-grade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: execute build-and-run script
+        run: |
+          chmod +x build-and-run.sh
+          ./build-and-run.sh
