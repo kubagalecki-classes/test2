@@ -5,7 +5,7 @@ _Czas pracy: 90 minut_
 Napisz klasę `Warzywo`, która posiada:
 - prywatne pole typu `std::string`, reprezentujące nazwę warzywa
 - prywatne pole typu `double`, reprezentujące cenę warzywa (za kg)
-- prywatne pole typu `int` reprezentujące kolor warzywa
+- prywatne pole typu `int`, reprezentujące kolor warzywa
 - prywatne pole statyczne typu `unsigned`, reprezentujące liczbę istniejących obecnie warzyw. Pole to powinno mieć początkowo wartość 0.
 - publiczny konstruktor parametryczny `Warzywo(const std::string&, double, int)`, który inkrementuje dodatkowo liczbę istniejących warzyw
 - publiczny destruktor, które dekrementuje liczbę istniejących warzyw
@@ -19,7 +19,7 @@ Napisz klasę `Warzywo`, która posiada:
 ## Zadanie 2
 Napisz klasę `Ogorek`, posiadającą publiczną abstrakcyjną metodę `std::string chrup()`. Następnie napisz dwie publicznie dziedziczące po niej klasy: `Zielony` i `Kiszony`. Niech klasy te nadpisują metodę `chrup`. `Zielony` powinien zwracać wynik zawołania funkcji `chrupZielony` (dostarczonej przez prowadzącego), a `Kiszony` wynik zawołania funkcji `chrupKiszony` (także dostarczonej przez prowadzącego). Napisz także funkcję `jedzOgorek`, która:
 - przyjmuje jeden argument typu `Ogorek*`
-- zwraca obiekty typu `std::string`
+- zwraca obiekt typu `std::string`
 - jeżeli pod podanym adresem znajduje się obiekt typu `Zielony`, zwraca tekst `Zielony: [wynik zawołania metody chrup]`
 - jeżeli pod podanym adresem znajduje się obiekt typu `Kiszony`, zwraca tekst `Kiszony: [wynik zawołania metody chrup]`
 
@@ -29,7 +29,7 @@ Napisz klasę `Ogorek`, posiadającą publiczną abstrakcyjną metodę `std::str
 Napisz szablon funkcji `gotujZupe`, sparametryzowany typem `T`, który:
 - przyjmuje jako pierwszy argument stałą referencję do obiektu typu `Warzywo`
 - przyjmuje jako drugi argument stałą referencję do obiektu typu `T`
-- zwraca podniesiony do kwadratu wynik zawołania metody `gotuj` drugiego argumentu funkcji `gotujZupe`, przyjmującej jako argument tej metody pierwszy argument funkcji `gotujZupe`. Załóż że odpowiednia metoda istnieje i zwraca liczbę typu `unsigned`. Jeżeli treść tego polecenia nie jest do końca jasna, dopytaj prowadzącego kolokwium.
+- zwraca podniesiony do kwadratu wynik zawołania metody `gotuj` drugiego argumentu funkcji `gotujZupe`, przyjmującej jako argument tej metody pierwszy argument funkcji `gotujZupe`. Załóż że odpowiednia metoda istnieje i zwraca liczbę typu `unsigned`.
 
 ## Zadanie 4
 Napisz funkcję `jedzOstatnieWarzywa`, która:
