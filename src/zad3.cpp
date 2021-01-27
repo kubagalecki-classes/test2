@@ -2,7 +2,7 @@
 
 struct Zupa1
 {
-    unsigned gotujZupe(const Warzywo& w) const
+    unsigned gotuj(const Warzywo& w) const
     {
         std::stringstream ss{};
         w.opis(ss);
@@ -13,7 +13,7 @@ struct Zupa1
 
 struct Zupa2
 {
-    unsigned gotujZupe(const Warzywo& w) const
+    unsigned gotuj(const Warzywo& w) const
     {
         std::stringstream ss{};
         w.opis(ss);
